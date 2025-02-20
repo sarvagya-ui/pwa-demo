@@ -1,0 +1,37 @@
+header {
+  background: #1976d2;
+  color: white;
+  padding: 16px;
+  margin: -16px -16px 16px -16px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  flex: 1;
+  min-width: 200px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.box1 {
+  background-color: lightblue;
+}
+
+.box2 {
+  background-color: lightcoral;
+}
+
+@media (max-width: 800px) {
+  .box {
+    flex: 100%;
+  }
+}
